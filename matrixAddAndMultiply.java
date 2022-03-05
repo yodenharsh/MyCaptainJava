@@ -16,7 +16,6 @@ public class matrixAddAndMultiply {
         System.out.println("Enter Matrix B's values");
         obj.inputMat(b, sc);
         do {
-            choice = 0; // check if code works after removing this line
             System.out.println("Enter choice:\n1.Add\n2.Multiply\n3.Exit");
             choice = sc.nextInt();
             switch (choice) {
